@@ -7,7 +7,7 @@ from setup.naive_approach import generate_from_paths_and_labels, extract_dataset
 
 whole_printer = 0
 
-def train_and_save_cladoh_model(dataset_path, percentage=0.8, nbr_epochs=10, batch_size=32):
+def train_and_save_cladoh_model(dataset_path, percentage=0.8, nbr_epochs=10, batch_size=33):
     """
     :param dataset_path: where the dataset lives
     :param percentage: percentage of samples to be used for training. Must be in [0,1].

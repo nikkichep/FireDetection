@@ -22,7 +22,7 @@ nbr_classes = 3
 
 def generate_from_paths_and_labels(images_paths, labels, batch_size, preprocessing, image_size=(224, 224)):
     """
-    Generator to give to the fit function, generates batches of samples for training.
+    Generators to give to the fit function, generates batches of samples for training.
     This avoids to load the full dataset in memory. This can also be a Keras class.
     :param images_paths:
     :param labels:
